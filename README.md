@@ -1,12 +1,13 @@
 # EndprojectNovi
 
-#Install Java
-#Install React
-#Install NodeJs
-#Install Yarn
+##Install Java
+##Install React
+##Install NodeJs
+##Install Yarn
 
+-----------------------------------------
 This install note is written to be used with 1. Netbeans, 2. Visual Studio Code.
-But U can use any of your own prefferred IDE.
+But U can use any of your own preferred IDE.
 
 ## INSTALL NOTE SPRINGBOOT
 
