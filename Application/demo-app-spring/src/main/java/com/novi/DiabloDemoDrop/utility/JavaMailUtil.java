@@ -10,7 +10,7 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-/
+
 public class JavaMailUtil {
     
     public static void sendMail(String recepient) throws Exception {
@@ -22,7 +22,7 @@ public class JavaMailUtil {
         properties.put("mail.smtp.host", "smtp.gmail.com");
         properties.put("mail.smtp.port", "587");
         
-        //real account credentials not in ublic repository
+        //real account credentials not in public repository
         String myAccountEmail = "dummy";
         String password = "dummy";
                 
