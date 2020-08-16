@@ -1,9 +1,9 @@
 
-package com.novi.DiabloDemoDrop.service;
-
-import com.novi.DiabloDemoDrop.utility.JavaMailUtil;
+package com.project.MusicDemoDrop.service;
 
 import org.springframework.stereotype.Service;
+
+import com.project.MusicDemoDrop.utility.JavaMailUtil;
 
 @Service
 public class UserService {

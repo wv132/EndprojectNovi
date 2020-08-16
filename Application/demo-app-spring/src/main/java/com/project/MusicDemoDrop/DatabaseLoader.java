@@ -1,11 +1,12 @@
 
-package com.novi.DiabloDemoDrop;
+package com.project.MusicDemoDrop;
 
-import com.novi.DiabloDemoDrop.model.User;
-import com.novi.DiabloDemoDrop.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;
+
+import com.project.MusicDemoDrop.model.User;
+import com.project.MusicDemoDrop.repository.UserRepository;
 
 @Component
 public class DatabaseLoader implements CommandLineRunner {

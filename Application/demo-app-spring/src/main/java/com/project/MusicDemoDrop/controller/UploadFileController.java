@@ -1,14 +1,15 @@
-package com.novi.DiabloDemoDrop.controller;
+package com.project.MusicDemoDrop.controller;
 
-import com.novi.DiabloDemoDrop.model.FileModel;
-import com.novi.DiabloDemoDrop.repository.FileRepository;
-import com.novi.DiabloDemoDrop.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+
+import com.project.MusicDemoDrop.model.FileModel;
+import com.project.MusicDemoDrop.repository.FileRepository;
+import com.project.MusicDemoDrop.repository.UserRepository;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController

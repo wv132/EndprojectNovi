@@ -1,10 +1,11 @@
-package com.novi.DiabloDemoDrop.repository;
+package com.project.MusicDemoDrop.repository;
 
-import com.novi.DiabloDemoDrop.model.FileModel;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.project.MusicDemoDrop.model.FileModel;
 
 
 @Repository

@@ -1,5 +1,5 @@
 
-package com.novi.DiabloDemoDrop.utility;
+package com.project.MusicDemoDrop.utility;
 
 import java.util.Properties;
 import javax.mail.Authenticator;

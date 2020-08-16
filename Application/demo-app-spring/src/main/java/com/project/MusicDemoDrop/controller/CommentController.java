@@ -1,13 +1,6 @@
 
-package com.novi.DiabloDemoDrop.controller;
+package com.project.MusicDemoDrop.controller;
 
-import com.novi.DiabloDemoDrop.model.Comment;
-import com.novi.DiabloDemoDrop.model.FileModel;
-import com.novi.DiabloDemoDrop.model.User;
-import com.novi.DiabloDemoDrop.repository.CommentRepository;
-import com.novi.DiabloDemoDrop.repository.FileRepository;
-import com.novi.DiabloDemoDrop.repository.UserRepository;
-import com.novi.DiabloDemoDrop.service.UserService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -22,6 +15,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+
+import com.project.MusicDemoDrop.model.Comment;
+import com.project.MusicDemoDrop.model.FileModel;
+import com.project.MusicDemoDrop.model.User;
+import com.project.MusicDemoDrop.repository.CommentRepository;
+import com.project.MusicDemoDrop.repository.FileRepository;
+import com.project.MusicDemoDrop.repository.UserRepository;
+import com.project.MusicDemoDrop.service.UserService;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController

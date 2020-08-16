@@ -1,6 +1,5 @@
-package com.novi.DiabloDemoDrop.controller;
+package com.project.MusicDemoDrop.controller;
 
-import com.novi.DiabloDemoDrop.model.Comment;
 import java.util.List;
 import java.util.Optional;
 
@@ -11,10 +10,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.novi.DiabloDemoDrop.model.FileModel;
-import com.novi.DiabloDemoDrop.model.User;
-import com.novi.DiabloDemoDrop.repository.FileRepository;
-import com.novi.DiabloDemoDrop.repository.UserRepository;
+import com.project.MusicDemoDrop.model.Comment;
+import com.project.MusicDemoDrop.model.FileModel;
+import com.project.MusicDemoDrop.model.User;
+import com.project.MusicDemoDrop.repository.FileRepository;
+import com.project.MusicDemoDrop.repository.UserRepository;
+
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;

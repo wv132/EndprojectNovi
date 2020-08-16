@@ -1,5 +1,5 @@
 
-package com.novi.DiabloDemoDrop.model;
+package com.project.MusicDemoDrop.model;
 
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;

@@ -1,11 +1,8 @@
 /**
  * @author wouterverveer 
  */
-package com.novi.DiabloDemoDrop.controller;
+package com.project.MusicDemoDrop.controller;
 
-import com.novi.DiabloDemoDrop.model.User;
-import com.novi.DiabloDemoDrop.repository.UserRepository;
-import com.novi.DiabloDemoDrop.service.UserService;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +20,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.project.MusicDemoDrop.model.User;
+import com.project.MusicDemoDrop.repository.UserRepository;
+import com.project.MusicDemoDrop.service.UserService;
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("api/user")

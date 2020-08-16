@@ -1,4 +1,4 @@
-package com.novi.DiabloDemoDrop.utility;
+package com.project.MusicDemoDrop.utility;
 
 import ws.schild.jave.AudioAttributes;
 import ws.schild.jave.Encoder;
